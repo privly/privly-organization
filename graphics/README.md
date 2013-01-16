@@ -1,0 +1,1 @@
+This folder will contain standard graphics for Privly-affiliated projects.

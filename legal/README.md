@@ -1,0 +1,1 @@
+This folder will contain the Privly Foundation's public legal documents.
