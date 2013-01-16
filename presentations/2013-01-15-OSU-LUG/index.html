@@ -1,0 +1,699 @@
+<!doctype html>
+
+<!--
+
+    Welcome to the light side of the source, young padawan.
+
+    One step closer to learn something interesting you are...
+
+                               ____                  
+                            _.' :  `._               
+                        .-.'`.  ;   .'`.-.           
+               __      / : ___\ ;  /___ ; \      __  
+             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
+             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
+                  `:-.._J '-.-'L__ `-.-' L_..-;'     
+                    "-.__ ;  .-"  "-.  : __.-"       
+                        L ' /.======.\ ' J           
+                         "-.   "__"   .-"            
+                        __.l"-:_JL_;-";.__           
+                     .-j/'.;  ;""""  / .'\"-.        
+                   .' /:`. "-.:     .-" .';  `.      
+                .-"  / ;  "-. "-..-" .-"  :    "-.   
+             .+"-.  : :      "-.__.-"      ;-._   \  
+             ; \  `.; ;                    : : "+. ; 
+             :  ;   ; ;                    : ;  : \: 
+             ;  :   ; :                    ;:   ;  : 
+            : \  ;  :  ;                  : ;  /  :: 
+            ;  ; :   ; :                  ;   :   ;: 
+            :  :  ;  :  ;                : :  ;  : ; 
+            ;\    :   ; :                ; ;     ; ; 
+            : `."-;   :  ;              :  ;    /  ; 
+             ;    -:   ; :              ;  : .-"   : 
+             :\     \  :  ;            : \.-"      : 
+              ;`.    \  ; :            ;.'_..-=  / ; 
+              :  "-.  "-:  ;          :/."      .'  :
+               \         \ :          ;/  __        :
+                \       .-`.\        /t-""  ":-+.   :
+                 `.  .-"    `l    __/ /`. :  ; ; \  ;
+                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
+                    \ / .-"   /.     .'.' ;_:'    ;  
+                     :-""-.`./-.'     /    `.___.'   
+                           \ `t  ._  /               
+                            "-.t-._:'                
+
+-->
+
+<!--
+    
+    So you'd like to know how to use impress.js?
+    
+    You've made the first, very important step - you're reading the source code.
+    And that's how impress.js presentations are built - with HTML and CSS code.
+    
+    Believe me, you need quite decent HTML and CSS skills to be able to use impress.js effectively.
+    And what is even more important, you need to be a designer, too, because there are no default
+    styles for impress.js presentations, there is no default or automatic layout for them.
+    
+    You need to design and build it by hand.
+    
+    So...
+    
+    Would you still like to know how to use impress.js?
+    
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <!--
+        
+        Impress.js doesn't depend on any external stylesheet. Script adds all styles it needs for
+        presentation to work.
+        
+        This style below contains styles only for demo presentation. Browse it to see how impress.js
+        classes are used to style presentation steps, or how to apply fallback styles, but I don't want
+        you to use them directly in your presentation.
+        
+        Be creative, build your own. We don't really want all impress.js presentations to look the same,
+        do we?
+        
+        When creating your own presentation get rid of this file. Start from scratch, it's fun!
+        
+    -->
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+</head>
+
+<!--
+    
+    Body element is used by impress.js to set some useful class names, that will allow you to detect
+    the support and state of the presentation in CSS or other scripts.
+    
+    First very useful class name is `impress-not-supported`. This class means, that browser doesn't
+    support features required by impress.js, so you should apply some fallback styles in your CSS.
+    It's not necessary to add it manually on this element. If the script detects that browser is not
+    good enough it will add this class, but keeping it in HTML means that users without JavaScript
+    will also get fallback styles.
+    
+    When impress.js script detects that browser supports all required features, this class name will
+    be removed.
+    
+    The class name on body element also depends on currently active presentation step. More details about
+    it can be found later, when `hint` element is being described.
+    
+-->
+<body class="impress-not-supported">
+
+<!--
+    For example this fallback message is only visible when there is `impress-not-supported` class on body.
+-->
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<!--
+    
+    Now that's the core element used by impress.js.
+    
+    That's the wrapper for your presentation steps. In this element all the impress.js magic happens.
+    It doesn't have to be a `<div>`. Only `id` is important here as that's how the script find it.
+    
+    You probably won't need it now, but there are some configuration options that can be set on this element.
+    
+    To change the duration of the transition between slides use `data-transition-duration="2000"` giving it
+    a number of ms. It defaults to 1000 (1s).
+    
+    You can also control the perspective with `data-perspective="500"` giving it a number of pixels.
+    It defaults to 1000. You can set it to 0 if you don't want any 3D effects.
+    If you are willing to change this value make sure you understand how CSS perspective works:
+    https://developer.mozilla.org/en/CSS/perspective
+    
+    But as I said, you won't need it for now, so don't worry - there are some simple but interesing things
+    right around the corner of this tag ;)
+    
+-->
+<div id="impress">
+<!--
+
+Title
+Problem
+  Using modern web technologies "sign your life away"
+    You grant an irrevocable, royalty free right to your content...
+  Modern web technologies are still kick ass, so what our our options?
+    Don't use most of the communication platforms on the internet or...
+    Use Privly
+Privly
+  A web privacy stack implementing a design pattern
+  Basic example of how it works
+    Facebook
+    Gmail
+  How Does it Work?
+    Injectable application: Our little world in the host page
+    Option 1: Implement the design pattern
+      Basic Reading Mechanism
+        Example on Twitter
+      Problem: We are loading remote code, how do we fix it?
+    Option 2: Extensions
+      Basic posting mechanism
+        Example on IMO
+  Adding Cryptography
+    Why?
+      You don't have to trust your storage provider
+      Secures "the cloud"
+    Another example:
+      ZeroBin on Privly
+        imo.im
+System Architecture
+  JavaScript is not a "secure" language
+  Bridging servers and client in a scalable and secure way is a challenge
+  (give architecture here)
+Development Status
+  Organization
+    Tax code - 501 (c) 3
+      Wins the moral argument of only providing users their privacy
+      contributors list, Board
+  Roadmap
+    Security review/finalizing system concepts, packaging NSS cryptography library, develop and finalize injectable applications, whitelisting, encryption library development (identity system), "making it look good," P2P, non-text content, sandboxed personal information
+  Rolling new security applications:
+    Security review process
+    Threat Models
+      Informs many of the design considerations
+  endgame
+    Collapse
+    Steganography (1% of users)
+    Application success (5% of users)
+    Massive success (100% of users)
+  What can you do?
+    Content Server Developers
+    Injectable Application Developers
+    Extension Developers
+    Encryption Library Developers
+  Contacts page
+-->
+
+
+    <div id="title" class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>Privly Overview</h1>
+      <span class="footnote">By Sean McGregor</span>
+    </div>
+
+
+
+    <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>Problem Statement</h1>
+    </div>
+
+
+
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Modern web technologies are kick ass, but...</p>
+    </div>
+
+
+
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>We are in a Faustian Bargain</p>
+      <img src="images/devil_flanders.jpg" width="500px">
+    </div>
+
+
+
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>"...you hereby grant Twitpic a worldwide, non-exclusive, royalty-free, sublicenseable and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the Content in connection with the Service and Twitpic's (and its successors' and affiliates') business, including without limitation for promoting and redistributing part or all of the Service (and derivative works thereof) in any media formats and through any media channels."</p>
+      <span class="footnote">Twitpic's Terms of Service</span>
+    </div>
+
+
+
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>What can we do?</p>
+      <img src="images/donuts.gif" width="500px">
+    </div>
+
+
+
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Options</p>
+      <ul>
+        <li>Don't use the modern web</li>
+        <li>Rebuild applications from the ground up</li>
+        <li>Change the Rules</li>
+      </ul>
+    </div>
+
+
+
+    <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>Changing the rules: Privly</h1>
+    </div>
+
+
+
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Privly is a web privacy stack implementing a design pattern</p>
+      <p><strong>web Privacy stack</strong>: Injected Application + Host Page + Extension + Cryptography Library + Content Server</p>
+      <p><strong>Design Pattern</strong>: iframe Injection</p>
+    </div>
+
+
+
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Working Examples</p>
+      <ul>
+        <li><a href="https://twitter.com/PrivlyTest">Twitter</a></li>
+      </ul>
+    </div>
+
+
+
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>How does it work?</p>
+    </div>
+
+
+
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p><strong>Injectable application:</strong> Our "little world" in the host page</p>
+    </div>
+
+
+
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>How do we create this little world?</p>
+    </div>
+
+
+
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Option 1: Implement the design pattern</p>
+      <ol>
+        <li>Accept Specially formatted links</li>
+        <li>Inject the links to create an iframe</li>
+        <li>Same Origin Policy keeps it safe</li>
+      </ol>
+      <p><a href="https://twitter.com/PrivlyTest">Twitter</a></p>
+    </div>
+
+
+
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Problem: We are loading remote code</p>
+    </div>
+
+
+
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Option 2: Extensions</p>
+      <p>No Remote Code+Powerful Side Effects</p>
+    </div>
+
+
+
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <iframe src="https://imo.im/#" width="1200px" height="700px"></iframe>
+    </div>
+
+
+
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Adding Cryptography: Why?</p>
+      <ul>
+        <li>You Don't Have to Trust Your Storage Provider</li>
+        <li>Secures the "cloud"</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Another example:</p>
+      <p>ZeroBin on Privly</p>
+    </div>
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Encryption</p>
+      <img src="http://sebsauvage.net/wiki/lib/exe/fetch.php?media=php:zerobin:zerobin_figure_encryption.png" width="1000px">
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Decryption</p>
+      <img src="http://sebsauvage.net/wiki/lib/exe/fetch.php?media=php:zerobin:zerobin_figure_decryption.png" width="1000px">
+    </div>
+    
+    
+    
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <iframe src="https://imo.im/#" width="1200px" height="700px"></iframe>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>System Architecture</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>
+        <img src="images/SystemArchitecture.png" width="1000px">
+      </p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Why so...complicated?</p>
+      <ul>
+        <li>This is platform indifferent and works with most APIs</li>
+        <li>Bridging unsafe JavaScript with a private key is challenging</li>
+        <li>Allows for a separation of concerns, and the development of a large number of cryptographic operations</li>
+        <li>Allows for "branding" of each cryptographic operation (people are terrible at security)</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Development Status</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Why a Foundation?</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Why Not a Foundation?</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Why you should not "roll your own" organization</p>
+      <ul>
+        <li>Articles of incorporation</li>
+        <li>Trademark</li>
+        <li>Minimum Tax Treatment</li>
+        <li>Filing fees</li>
+        <li>Banking</li>
+        <li>Forming a Board</li>
+      </ul>
+      <p>It is a lot of work. Still there are benefits.</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Feel free to ask me about org stuff later. I know too much about the tax code at this point.</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Maintainers</p>
+      <ul>
+        <li>Sean McGregor</li>
+        <li>Jen Davidson - OSU Computer Science PhD Student</li>
+        <li>Sanchit Karve - Anti-Malware Researcher at McAfee, Masters of Computer Science from OSU</li>
+        <li>Jesse Hostetler - OSU Computer Science PhD Student</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Current and Past Contributors</p>
+      <ul>
+        <li>Daniel Reichert</li>
+        <li>Balaji Athreya</li>
+        <li>Jesse Pollack</li>
+        <li>Hanno Wagner</li>
+        <li>Tyler Dugoni</li>
+        <li>Charles Martin</li>
+        <li>Jesse Markowitz</li>
+        <li>Jared Howe</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>The Privly Foundation Board</p>
+      <ul>
+        <li>Sean McGregor</li>
+        <li>Leslie Hawthorn</li>
+        <li>Carlos Jensen</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Roadmap</p>
+      <ol>
+        <li>Security review/finalizing system concepts</li>
+        <li>packaging NSS cryptography library</li>
+        <li>develop and finalize injectable applications</li>
+        <li>whitelisting</li>
+        <li>encryption library development (identity system)</li>
+        <li>"making it look good"</li>
+        <li>P2P</li>
+        <li>Non-Text Content</li>
+        <li>Sandboxed personal information</li>
+      </ol>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Rolling new security applications:</p>
+      <ul>
+        <li>Security review process</li>
+        <li>Threat Models</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Endgames</p>
+      <ul>
+        <li>Collapse</li>
+        <li>Steganography</li>
+        <li>Application success</li>
+        <li>Massive success</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Contact</p>
+      <ul>
+        <li>IRC: irc.freenode.net #privly, Nick smcgregor</li>
+        <li>privly@privly.org or community@privly.org</li>
+        <li>More System Info: github.com/privly/privly-organization/wiki</li>
+      </ul>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Ask Me About</p>
+      <ul>
+        <li>Promoting to the Press</li>
+        <li>Dealing with Press Onslaught</li>
+        <li>Open Source Kickstarters</li>
+      </ul>
+    </div>
+    
+    <!--
+        
+        So to make a summary of all the possible attributes used to position presentation steps, we have:
+        
+        * `data-x`, `data-y`, `data-z` - they define the position of **the center** of step element on
+            the canvas in pixels; their default value is 0;
+        * `data-rotate-x`, `data-rotate-y`, 'data-rotate-z`, `data-rotate` - they define the rotation of
+            the element around given axis in degrees; their default value is 0; `data-rotate` and `data-rotate-z`
+            are exactly the same;
+        * `data-scale` - defines the scale of step element; default value is 1
+        
+        These values are used by impress.js in CSS transformation functions, so for more information consult
+        CSS transfrom docs: https://developer.mozilla.org/en/CSS/transform
+        
+    -->
+    <div id="overview" class="step" data-x="0" data-y="0" data-scale="6">
+    </div>
+
+</div>
+
+<!--
+    
+    Hint is not related to impress.js in any way.
+    
+    But it can show you how to use impress.js features in creative way.
+    
+    When the presentation step is shown (selected) its element gets the class of "active" and the body element
+    gets the class based on active step id `impress-on-ID` (where ID is the step's id)... It may not be
+    so clear because of all these "ids" in previous sentence, so for example when the first step (the one with
+    the id of `bored`) is active, body element gets a class of `impress-on-bored`.
+    
+    This class is used by this hint below. Check CSS file to see how it's shown with delayed CSS animation when
+    the first step of presentation is visible for a couple of seconds.
+    
+    ...
+    
+    And when it comes to this piece of JavaScript below ... kids, don't do this at home ;)
+    It's just a quick and dirty workaround to get different hint text for touch devices.
+    In a real world it should be at least placed in separate JS file ... and the touch content should be
+    probably just hidden somewhere in HTML - not hard-coded in the script.
+    
+    Just sayin' ;)
+    
+-->
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<!--
+    
+    Last, but not least.
+    
+    To make all described above really work, you need to include impress.js in the page.
+    I strongly encourage to minify it first.
+    
+    In here I just include full source of the script to make it more readable.
+    
+    You also need to call a `impress().init()` function to initialize impress.js presentation.
+    And you should do it in the end of your document. Not only because it's a good practice, but also
+    because it should be done when the whole document is ready.
+    Of course you can wrap it in any kind of "DOM ready" event, but I was too lazy to do so ;)
+    
+-->
+<script src="js/impress.js"></script>
+<script>
+
+$(document).ready(function() {
+  
+  $.each( $(".step"), function(i, l){
+     $(l).attr("data-x", i*1000);
+     $(l).attr("data-y", 0);
+   });
+  $.each( $(".level1"), function(i, l){
+    $(l).attr("data-z", 2000);
+  });
+  $.each( $(".level2"), function(i, l){
+     $(l).attr("data-z", 0);
+  });
+  $.each( $(".level3"), function(i, l){
+     $(l).attr("data-z", -2000);
+  });
+  $.each( $(".level4"), function(i, l){
+     $(l).attr("data-z", -6000);
+  });
+  
+  $("#overview").attr("data-x", ($(".step").length/2)*1000);
+  
+  impress().init();
+});
+
+</script>
+
+<!--
+    
+    The `impress()` function also gives you access to the API that controls the presentation.
+    
+    Just store the result of the call:
+    
+        var api = impress();
+    
+    and you will get three functions you can call:
+    
+        `api.init()` - initializes the presentation,
+        `api.next()` - moves to next step of the presentation,
+        `api.prev()` - moves to previous step of the presentation,
+        `api.goto( idx | id | element, [duration] )` - moves the presentation to the step given by its index number
+                id or the DOM element; second parameter can be used to define duration of the transition in ms,
+                but it's optional - if not provided default transition duration for the presentation will be used.
+    
+    You can also simply call `impress()` again to get the API, so `impress().next()` is also allowed.
+    Don't worry, it wont initialize the presentation again.
+    
+    For some example uses of this API check the last part of the source of impress.js where the API
+    is used in event handlers.
+    
+-->
+
+</body>
+</html>
+
+<!--
+    
+    Now you know more or less everything you need to build your first impress.js presentation, but before
+    you start...
+    
+    Oh, you've already cloned the code from GitHub?
+    
+    You have it open in text editor?
+    
+    Stop right there!
+    
+    That's not how you create awesome presentations. This is only a code. Implementation of the idea that
+    first needs to grow in your mind.
+    
+    So if you want to build great presentation take a pencil and piece of paper. And turn off the computer.
+    
+    Sketch, draw and write. Brainstorm your ideas on a paper. Try to build a mind-map of what you'd like
+    to present. It will get you closer and closer to the layout you'll build later with impress.js.
+    
+    Get back to the code only when you have your presentation ready on a paper. It doesn't make sense to do
+    it earlier, because you'll only waste your time fighting with positioning of useless points.
+    
+    If you think I'm crazy, please put your hands on a book called "Presentation Zen". It's all about 
+    creating awesome and engaging presentations.
+    
+    Think about it. 'Cause impress.js may not help you, if you have nothing interesting to say.
+    
+-->
+
+<!--
+    
+    Are you still reading this?
+    
+    For real?
+    
+    I'm impressed! Feel free to let me know that you got that far (I'm @bartaz on Twitter), 'cause I'd like
+    to congratulate you personally :)
+    
+    But you don't have to do it now. Take my advice and take some time off. Make yourself a cup of coffee, tea,
+    or anything you like to drink. And raise a glass for me ;)
+    
+    Cheers!
+    
+-->
+
