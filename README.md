@@ -7,9 +7,9 @@ This repository is for the [central Privly wiki](https://github.com/privly/privl
 
 [central Privly wiki](https://github.com/privly/privly-organization/wiki) - System documentation.
 
-[presentations](https://github.com/privly/privly-organization/tree/master/presentations) - Presentations given at various user groups and conferences.
+[presentations](https://github.com/privly/privly-organization/tree/master/presentations) - Presentations given at various user groups and conferences, including online walkthroughs.
 
-[legal](https://github.com/privly/privly-organization/tree/master/legal) - Privly legal documents and organizational information.
+[legal](https://github.com/privly/privly-organization/tree/master/legal) - Privly legal documents.
 
 [graphics](https://github.com/privly/privly-organization/tree/master/graphics) - Standard graphics for Privly affiliated projects.
 
