@@ -1,16 +1,5 @@
-This folder contains standard graphics for Privly-affiliated projects. The better graphics are designed by Tyler Dugoni, and the rest are designed by Sean McGregor.
 
-[Icons](https://github.com/privly/privly-organization/tree/master/graphics/icons) - Privly Icons
-
-[Logos](https://github.com/privly/privly-organization/tree/master/graphics/logos) - Privly logos
-
-[Diagrams](https://github.com/privly/privly-organization/tree/master/graphics/diagrams) - How the system works
-
-[Promotional](https://github.com/privly/privly-organization/tree/master/graphics/promotional) - User facing posters, stickers, and infographics.
-
-[Screen Captures](https://github.com/privly/privly-organization/tree/master/graphics/screen_captures) - Screen shots
-
-[fonts](https://github.com/privly/privly-organization/tree/master/graphics/fonts) - Special fonts used by Privly Projects
+These graphics are for distribution to users to either explain or promote the system.
 
 ***
 
