@@ -1,1 +1,1 @@
-The Open Invention Network is an intellectual property cooperative facilitating defense from patent abuse. Privly is an OIN licensee.
+The Open Invention Network is an intellectual property cooperative facilitating defense from patent abuse. Privly is an OIN licensee. [Read the announcement](http://www.privly.org/content/privly-joins-open-invention-network).
