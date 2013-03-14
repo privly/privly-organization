@@ -1,50 +1,6 @@
 <!doctype html>
 
 <!--
-
-    Welcome to the light side of the source, young padawan.
-
-    One step closer to learn something interesting you are...
-
-                               ____                  
-                            _.' :  `._               
-                        .-.'`.  ;   .'`.-.           
-               __      / : ___\ ;  /___ ; \      __  
-             ,'_ ""=-.:__;".-.";: :".-.":__;.-="" _`,
-             :' `.t""=-.. '<@.`;_  ',@:` ..-=""j.' `;
-                  `:-.._J '-.-'L__ `-.-' L_..-;'     
-                    "-.__ ;  .-"  "-.  : __.-"       
-                        L ' /.======.\ ' J           
-                         "-.   "__"   .-"            
-                        __.l"-:_JL_;-";.__           
-                     .-j/'.;  ;""""  / .'\"-.        
-                   .' /:`. "-.:     .-" .';  `.      
-                .-"  / ;  "-. "-..-" .-"  :    "-.   
-             .+"-.  : :      "-.__.-"      ;-._   \  
-             ; \  `.; ;                    : : "+. ; 
-             :  ;   ; ;                    : ;  : \: 
-             ;  :   ; :                    ;:   ;  : 
-            : \  ;  :  ;                  : ;  /  :: 
-            ;  ; :   ; :                  ;   :   ;: 
-            :  :  ;  :  ;                : :  ;  : ; 
-            ;\    :   ; :                ; ;     ; ; 
-            : `."-;   :  ;              :  ;    /  ; 
-             ;    -:   ; :              ;  : .-"   : 
-             :\     \  :  ;            : \.-"      : 
-              ;`.    \  ; :            ;.'_..-=  / ; 
-              :  "-.  "-:  ;          :/."      .'  :
-               \         \ :          ;/  __        :
-                \       .-`.\        /t-""  ":-+.   :
-                 `.  .-"    `l    __/ /`. :  ; ; \  ;
-                   \   .-" .-"-.-"  .' .'j \  /   ;/ 
-                    \ / .-"   /.     .'.' ;_:'    ;  
-                     :-""-.`./-.'     /    `.___.'   
-                           \ `t  ._  /               
-                            "-.t-._:'                
-
--->
-
-<!--
     
     So you'd like to know how to use impress.js?
     
@@ -68,29 +24,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    <title>An Open Privacy Stack for the Internet: Privly</title>
     
-    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
-    <meta name="author" content="Bartek Szopka" />
+    <meta name="description" content="This presentation was given to the " />
+    <meta name="author" content="Sean McGregor" />
 
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <!--
-        
         Impress.js doesn't depend on any external stylesheet. Script adds all styles it needs for
         presentation to work.
         
         This style below contains styles only for demo presentation. Browse it to see how impress.js
         classes are used to style presentation steps, or how to apply fallback styles, but I don't want
         you to use them directly in your presentation.
-        
-        Be creative, build your own. We don't really want all impress.js presentations to look the same,
-        do we?
-        
-        When creating your own presentation get rid of this file. Start from scratch, it's fun!
-        
     -->
-    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/privly-presentation.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.png" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
@@ -148,312 +97,398 @@
     
 -->
 <div id="impress">
-<!--
-
-Title
-Problem
-  Using modern web technologies "sign your life away"
-    You grant an irrevocable, royalty free right to your content...
-  Modern web technologies are still kick ass, so what our our options?
-    Don't use most of the communication platforms on the internet or...
-    Use Privly
-Privly
-  A web privacy stack implementing a design pattern
-  Basic example of how it works
-    Facebook
-    Gmail
-  How Does it Work?
-    Injectable application: Our little world in the host page
-    Option 1: Implement the design pattern
-      Basic Reading Mechanism
-        Example on Twitter
-      Problem: We are loading remote code, how do we fix it?
-    Option 2: Extensions
-      Basic posting mechanism
-        Example on IMO
-  Adding Cryptography
-    Why?
-      You don't have to trust your storage provider
-      Secures "the cloud"
-    Another example:
-      ZeroBin on Privly
-        imo.im
-System Architecture
-  JavaScript is not a "secure" language
-  Bridging servers and client in a scalable and secure way is a challenge
-  (give architecture here)
-Development Status
-  Organization
-    Tax code - 501 (c) 3
-      Wins the moral argument of only providing users their privacy
-      contributors list, Board
-  Roadmap
-    Security review/finalizing system concepts, packaging NSS cryptography library, develop and finalize injectable applications, whitelisting, encryption library development (identity system), "making it look good," P2P, non-text content, sandboxed personal information
-  Rolling new security applications:
-    Security review process
-    Threat Models
-      Informs many of the design considerations
-  endgame
-    Collapse
-    Steganography (1% of users)
-    Application success (5% of users)
-    Massive success (100% of users)
-  What can you do?
-    Content Server Developers
-    Injectable Application Developers
-    Extension Developers
-    Encryption Library Developers
-  Contacts page
--->
-
 
     <div id="title" class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
-      <h1>Privly Overview</h1>
-      <span class="footnote">By Sean McGregor</span>
+      <h1 class="lobster">An Open Privacy Stack for the Internet: Privly</h1>
+      <p>Note: This is an informal presentation given to a small research group. The visuals are useful, but you will need to generate notes.</p>
     </div>
-
-
-
+    
+    
+    
     <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
       <h1>Problem Statement</h1>
     </div>
-
-
-
+    
+    
+    
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Modern web technologies are kick ass, but...</p>
+      <p>Submitting content to third-parties comes at a cost.</p>
     </div>
-
-
-
+    
+    
+    
     <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>We are in a Faustian Bargain</p>
+      <p>Countries without strong press-freedoms regularly censor content.</p>
     </div>
-
-
-
-    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>"...you hereby grant Twitpic a worldwide, non-exclusive, royalty-free, sublicenseable and transferable license to use, reproduce, distribute, prepare derivative works of, display, and perform the Content in connection with the Service and Twitpic's (and its successors' and affiliates') business, including without limitation for promoting and redistributing part or all of the Service (and derivative works thereof) in any media formats and through any media channels."</p>
-      <span class="footnote">Twitpic's Terms of Service</span>
-    </div>
-
-
-
+    
+    
+    
     <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>What can we do?</p>
+      <p>User accounts are often compromised.</p>
     </div>
-
-
-
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Content is subject to continually changing permission structures and system capabilities, which results in accidental leaks of information.</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Sophisticated companies often leave billions of user photos and messages vulnerable to exploits.</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Online service providers own content posted to their website.</p>
+      <p>"...worldwide, non-exclusive, royalty-free, sublicenseable and transferable license..." <span class="footnote">-Twitpic's Terms of Service</span></p>
+    </div>
+    
+    
+    
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Options</p>
+      <p>Goal:</p>
+      <p>Give user's more control over their data.</p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Threat Model</p>
+      <p>Online Service Providers, Governments, and ill-willed users are potentially adversarial.</p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Assumptions</p>
       <ul>
-        <li>Don't use the modern web</li>
-        <li>Rebuild applications from the ground up</li>
-        <li>Change the Rules</li>
+        <li>Browser has access to a secure transport protocol in all communications.</li>
+        <li>The user's browser is not compromised and all servers storing content have not been compromised.</li>
       </ul>
     </div>
-
-
-
+    
+    
+    
     <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
-      <h1>Changing the rules: Privly</h1>
+      <h1>Current Solution Challenges</h1>
     </div>
-
-
-
+    
+    
+    
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Privly is a web privacy stack implementing a design pattern</p>
-      <p><strong>web Privacy stack</strong>: Injected Application + Host Page + Extension + Cryptography Library + Content Server</p>
-      <p><strong>Design Pattern</strong>: iframe Injection</p>
+      <p>Specificity</p>
+      <p>Many solutions graft privacy on top of a single provider.</p>
     </div>
-
-
-
+    
+    
+    
     <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Working Examples</p>
+      <img src="images/caas.png" />
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Apathy</p>
+      <p>Users will not sacrifice even a small amount of usability for privacy.</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <img src="images/xkcd_pgp.png" />
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Bootstrapping</p>
+      <p>You can't create a privacy community from nothing</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>The only privacy-focused social network has 0.04 percent of Facebook’s total user base.</p>
+    </div>
+    
+    
+    
+    <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>Solutions</h1>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Specificity</p>
+      <p>Adapt to multiple use cases and web applications</p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Apathy</p>
+      <p>Add user value beyond privacy and security</p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Bootstrapping</p>
+      <p>Integrate with existing sites and fail gracefully by working without the need of any specialized client code</p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>How?</p>
+      <p>Combine CaaS and Scramble</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Confidentiality as a Service (CaaS)</p>
+      <p>Separates cryptography and content</p>
+    </div>
+    
+    
+    
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <img src="images/caas.png" />
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Scramble</p>
+      <p>Post links, not ciphertext.</p>
+    </div>
+    
+    
+    
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <img src="images/scramble-posting-1.png" />
+    </div>
+    
+    
+    
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <img src="images/scramble-posting-2.png" />
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>How do we combine CaaS and Scramble?</p>
+    </div>
+    
+    
+    
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Abstract Scramble's use of hyperlinks</p>
+    </div>
+    
+    
+    
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Implement CaaS inspired design</p>
+    </div>
+    
+    
+    
+    <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>Introducing Privly</h1>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Inject applications, not content.</p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <img src="images/Reading-Process-Twitter.png" />
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Live Example: <a href="https://twitter.com/PrivlyTest">Twitter</a></p>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Posting</p>
+      <img src="images/Posting-Process-Twitter.png" />
+    </div>
+    
+    
+    
+    <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>System Architecture</h1>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>System Architecture</p>
       <ul>
-        <li><a href="https://twitter.com/PrivlyTest">Twitter</a></li>
+        <li>Content Link</li>
+        <li>Host Page</li>
+        <li>Extension</li>
+        <li>Injectable Application</li>
+        <li>Content Server</li>
+        <li>Cryptography Library</li>
       </ul>
     </div>
-
-
-
+    
+    
+    
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>How does it work?</p>
+      <p>Reading Process</p>
+      <img src="images/Reading-Process.png" />
     </div>
-
-
-
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p><strong>Injectable application:</strong> Our "little world" in the host page</p>
-    </div>
-
-
-
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>How do we create this little world?</p>
-    </div>
-
-
-
-    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Option 1: Implement the design pattern</p>
-      <ol>
-        <li>Accept Specially formatted links</li>
-        <li>Inject the links to create an iframe</li>
-        <li>Same Origin Policy keeps it safe</li>
-      </ol>
-      <p><a href="https://twitter.com/PrivlyTest">Twitter</a></p>
-    </div>
-
-
-
-    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Problem: We are loading remote code</p>
-    </div>
-
-
-
-    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Option 2: Extensions</p>
-      <p>No Remote Code+Powerful Side Effects</p>
-    </div>
-
-
-
-
+    
+    
+    
+    
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Adding Cryptography: Why?</p>
-      <ul>
-        <li>You Don't Have to Trust Your Storage Provider</li>
-        <li>Secures the "cloud"</li>
-      </ul>
+      <p>Posting Process</p>
+      <img src="images/Posting-Process.png" />
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>
+        <pre>
+        Threats
+        ## Spoofing
+        ## Tracking
+        ## Host-P knows content length
+        ## User Understanding
+        ## Distributed Denial of Service
+        ## Privly Blocking
+        ## Other Extensions
+        </pre>
+      </p>
+    </div>
+    
+    
+    
+    <div class="step level1" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>Development Status</h1>
+    </div>
+    
+    
+    
+    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
+      <h1>Injectable Applications</h1>
     </div>
     
     
     
     <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Another example:</p>
+      <p>PlainPosts</p>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
       <p>ZeroBin on Privly</p>
     </div>
     
     
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+    
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
       <p>Encryption</p>
       <img src="http://sebsauvage.net/wiki/lib/exe/fetch.php?media=php:zerobin:zerobin_figure_encryption.png" width="1000px">
     </div>
     
     
     
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
       <p>Decryption</p>
       <img src="http://sebsauvage.net/wiki/lib/exe/fetch.php?media=php:zerobin:zerobin_figure_decryption.png" width="1000px">
     </div>
     
     
     
-    
-    <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>System Architecture</p>
-    </div>
-    
-    
-    
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>
-        <img src="images/SystemArchitecture.png" width="1000px">
-      </p>
+    <div class="step level4" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>This neatly mirrors the CaaS paradigm</p>
     </div>
     
     
     
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Why so...complicated?</p>
+      <h1>Content Servers</h1>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>Ruby on Rails Server Supports</p>
       <ul>
-        <li>This is platform indifferent and works with most APIs</li>
-        <li>Bridging unsafe JavaScript with a private key is challenging</li>
-        <li>Allows for a separation of concerns, and the development of a large number of cryptographic operations</li>
-        <li>Allows for "branding" of each cryptographic operation (people are terrible at security)</li>
+        <li>Grant/Revoke access to view, destroy, edit, share</li>
+        <li>Sharing rules based on email, domain, and IP address</li>
+        <li>Stores any structured content in serialized JSON</li>
+        <li>Session Cookie based authentication</li>
       </ul>
+    </div>
+    
+    
+    
+    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
+      <p>GitHub.com Hosting</p>
+      <a href="http://seanbmcgregor.com/privly/2012/12/21/Setting-Jekyll-Up-For-Privly/?privlyPassive=true#privlyInject1">Personal Server</a>
     </div>
     
     
     
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Development Status</p>
+      <p>Organizational Info</p>
     </div>
     
     
     
     <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Why a Foundation?</p>
-    </div>
-    
-    
-    
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Why Not a Foundation?</p>
-    </div>
-    
-    
-    
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Why you should not "roll your own" organization</p>
-      <ul>
-        <li>Articles of incorporation</li>
-        <li>Trademark</li>
-        <li>Minimum Tax Treatment</li>
-        <li>Filing fees</li>
-        <li>Banking</li>
-        <li>Forming a Board</li>
-      </ul>
-      <p>It is a lot of work. Still there are benefits.</p>
-    </div>
-    
-    
-    
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Feel free to ask me about org stuff later. I know too much about the tax code at this point.</p>
-    </div>
-    
-    
-    
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Maintainers</p>
-      <ul>
-        <li>Sean McGregor</li>
-        <li>Jen Davidson - OSU Computer Science PhD Student</li>
-        <li>Sanchit Karve - Anti-Malware Researcher at McAfee, Masters of Computer Science from OSU</li>
-        <li>Jesse Hostetler - OSU Computer Science PhD Student</li>
-      </ul>
-    </div>
-    
-    
-    
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Current and Past Contributors</p>
-      <ul>
-        <li>Daniel Reichert</li>
-        <li>Balaji Athreya</li>
-        <li>Jesse Pollack</li>
-        <li>Hanno Wagner</li>
-        <li>Tyler Dugoni</li>
-        <li>Charles Martin</li>
-        <li>Jesse Markowitz</li>
-        <li>Jared Howe</li>
-      </ul>
-    </div>
-    
-    
-    
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>The Privly Foundation Board</p>
-      <ul>
-        <li>Sean McGregor</li>
-        <li>Leslie Hawthorn</li>
-        <li>Carlos Jensen</li>
-      </ul>
+      <div style="font-size:50%">
+        <h1>The Privly Foundation Board</h1>
+        <ul>
+          <li>Sean McGregor</li>
+          <li>Leslie Hawthorn</li>
+          <li>Carlos Jensen</li>
+        </ul>
+      
+        <h1>Maintainers</h1>
+        <ul>
+          <li>Sean McGregor - OSU Computer Science PhD Student</li>
+          <li>Jen Davidson - OSU Computer Science PhD Student</li>
+          <li>Sanchit Karve - Anti-Malware Researcher at McAfee, Masters of Computer Science from OSU</li>
+          <li>Jesse Hostetler - OSU Computer Science PhD Student</li>
+        </ul>
+      
+        <h1>Current and Past Contributors</h1>
+        <ul>
+          <li>Daniel Reichert</li>
+          <li>Balaji Athreya</li>
+          <li>Hanno Wagner</li>
+          <li>Swetal Patel</li>
+          <li>Jesse Pollack</li>
+          <li>Tyler Dugoni</li>
+          <li>Charles Martin</li>
+          <li>Jesse Markowitz</li>
+          <li>Jared Howe</li>
+        </ul>
+      </div>
     </div>
     
     
@@ -462,11 +497,11 @@ Development Status
       <p>Roadmap</p>
       <ol>
         <li>Security review/finalizing system concepts</li>
-        <li>packaging NSS cryptography library</li>
-        <li>develop and finalize injectable applications</li>
-        <li>whitelisting</li>
-        <li>encryption library development (identity system)</li>
-        <li>"making it look good"</li>
+        <li>Packaging NSS cryptography library</li>
+        <li>Develop and finalize injectable applications</li>
+        <li>Whitelisting</li>
+        <li>Encryption library development</li>
+        <li>"Making it Look Good"</li>
         <li>P2P</li>
         <li>Non-Text Content</li>
         <li>Sandboxed personal information</li>
@@ -475,24 +510,17 @@ Development Status
     
     
     
-    <div class="step level3" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Rolling new security applications:</p>
-      <ul>
-        <li>Security review process</li>
-        <li>Threat Models</li>
-      </ul>
-    </div>
-    
-    
-    
     <div class="step level2" data-x="-10000" data-y="-1500" data-scale="1">
-      <p>Endgames</p>
-      <ul>
-        <li>Collapse</li>
-        <li>Steganography</li>
-        <li>Application success</li>
-        <li>Massive success</li>
-      </ul>
+      <p>Coming Soon, Videos on:</p>
+      <ol>
+        <li>Injectable applications</li>
+        <li>Content Servers</li>
+        <li>Cryptography Library</li>
+        <li>Host Page Concerns</li>
+        <li>Message Interface</li>
+        <li>Extensions</li>
+        <li>Development Path Overview</li>
+      </ol>
     </div>
     
     
@@ -501,11 +529,10 @@ Development Status
       <p>Contact</p>
       <ul>
         <li>IRC: irc.freenode.net #privly, Nick smcgregor</li>
-        <li>privly@privly.org or community@privly.org</li>
+        <li>community@privly.org or privly@privly.org</li>
         <li>More System Info: github.com/privly/privly-organization/wiki</li>
       </ul>
     </div>
-    
     
     
     

@@ -4,7 +4,7 @@ This folder will contain presentations given by the Privly Foundation. Unless th
 
 These presentations are to outline the system concepts to make it easier to contribute to Privly development.
 
-* (Not Finished) [Impress and Video Overview](https://github.com/privly/privly-organization/tree/master/presentations/2013-01-31-Video-Overview)
+* (Not Finished) Video Overview
 
 ***
 
@@ -23,3 +23,4 @@ These presentations assume a knowledgeable person is guiding the audience throug
 ## User Groups
 
 * [2013 Linux User Group Presentation](https://github.com/privly/privly-organization/tree/master/presentations/2013-01-15-OSU-LUG)
+* [2013-03-05 Machine Learning Research Group ](https://github.com/privly/privly-organization/tree/master/presentations/2013-03-05-Machine-Learning)

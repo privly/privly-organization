@@ -283,6 +283,10 @@ a:focus {
     font-size: 32px;
 }
 
+.footnote {
+    font-size: 50%;
+}
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
@@ -686,6 +690,8 @@ a:focus {
 */
 .impress-enabled          { pointer-events: none }
 .impress-enabled #impress { pointer-events: auto }
+
+h1,.lobster {font-family: 'Lobster', cursive;}
 
 /*
     There is one funny thing I just realized.
