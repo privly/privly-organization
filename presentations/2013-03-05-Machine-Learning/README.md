@@ -1,10 +1,9 @@
-# Video Overview
+# 2013-03-05 Machine Learning Research Group Presentation
 
-This presentation gives a technical overview of the Privly system. It is under development with the intention of recording it for the general public and posting it to the web.
+This presentation contains some useful graphics for presenting Privly concepts, but it does not contain enough notes for people outside the core development team to present.
 
 ## Presentation Outline
----
----
+
 # Problem Statement
 * Countries without strong press-freedoms regularly censor content.
 * Countries and individuals often compromise OSP user accounts and gain access to a trove of unencrypted personal communications.
@@ -16,25 +15,15 @@ This presentation gives a technical overview of the Privly system. It is under d
 
 ## Specificity
 
-Talk about Gdocs
-
-Solution: Adapt to multiple use cases and web applications
-
 ## Apathy
 
 Talk about PGP (give xkcd graphic)
-
-Solution: Add user value beyond privacy and security
 
 ## Bootstrapping
 
 Talk about Diaspora
 
-Solution: Fail gracefully by working without the need of any specialized client code
-
 # Introducing Privly
-
-Show the Twitter Example
 
 # Threat Model
 
@@ -44,21 +33,15 @@ We assume that the browser has access to a secure transport protocol in all comm
 
 # Privly's Inspiration
 
-CaaS and Scramble!
-
 ## CaaS
 
-Trust Separation
-
 ## Scramble!
-
-Public Key Cryptography
 
 ## How Do We Combine the Two?
 
 ### GreaseMonkey of "Injectable Applications"
 
-From an architectural perspective, Privly can be viewed as a Greasemonkey [39] for web security ap- plications.	The Greasemonkey browser extension is a framework upon which the browsing experience is selectively altered by installing community-contributed scripts. Such scripts are often developed to increase the accessibility of websites [9] or modify site functional- ity. The Greasemonkey installation base is nearly three million users [36, 28], and several privacy applications use Greasemonkey for their proof of concept implemen- tations [21, 19]. Privly brings Greasemonkey’s approach of script development and management to the application level.
+From an architectural perspective, Privly can be viewed as a Greasemonkey for web security applications.	The Greasemonkey browser extension is a framework upon which the browsing experience is selectively altered by installing community-contributed scripts. Such scripts are often developed to increase the accessibility of websites or modify site functionality. The Greasemonkey installation base is nearly three million users, and several privacy applications use Greasemonkey for their proof of concept implementations. Privly brings Greasemonkey's approach of script development and management to the application level.
 
 ## Twitter Posting Picture
 
@@ -68,31 +51,19 @@ From an architectural perspective, Privly can be viewed as a Greasemonkey [39] f
 
 ## Injectable Application
 
-(Twitter Reading Picture)
-
-## Injectable Application
-
 ### What Can These Applications Do?
 
 * Full web applications: Cryptography, Chat, Email, Code Sharing
 * With the added benefits: Work with any web server, integrates with existing websites, can customize APIs for host sites, 
 
-
 ## Extension
-
-Posting Form
 
 ## Host Page
 
-Interact with imo.im
-
 ## Content Server
-
-Privly or anyone else, show Github
 
 ## Library
 
-Provided by the extension and a content server
 
 # Posting Diagram
 
@@ -101,8 +72,6 @@ Provided by the extension and a content server
 # Analysis
 
 ## Spoofing
-
-(Spoofing screen capture)
 
 ## Tracking
 
