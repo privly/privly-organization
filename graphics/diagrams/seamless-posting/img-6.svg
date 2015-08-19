@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 657.311 123.546" enable-background="new 0 0 657.311 123.546" xml:space="preserve">
+<rect x="15" y="14" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="132.609" height="37"/>
+<text transform="matrix(1 0 0 1 35.4878 38)" font-family="'Seravek-Light'" font-size="15px">Content Script</text>
+<rect x="185.656" y="44" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="151.297" height="37"/>
+<text transform="matrix(1 0 0 1 204.2603 68)" font-family="'Seravek-Light'" font-size="15px">Background Script</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="147.609" y1="32.5" x2="180.613" y2="54.186"/>
+		<g>
+			<path fill="#231815" d="M185.656,57.5c-2.952-0.679-6.884-1.111-9.755-0.719l4.049-3.03l1.173-4.918
+				C181.904,51.623,183.861,55.061,185.656,57.5z"/>
+		</g>
+	</g>
+</g>
+<rect x="15" y="74" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="132.609" height="37"/>
+<text transform="matrix(1 0 0 1 26.5181 98)" font-family="'Seravek-Light'" font-size="15px">Privly Application</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="147.609" y1="92.5" x2="180.613" y2="70.814"/>
+		<g>
+			<path fill="#231815" d="M185.656,67.5c-1.795,2.44-3.752,5.877-4.532,8.668l-1.174-4.919l-4.049-3.029
+				C178.773,68.612,182.705,68.18,185.656,67.5z"/>
+		</g>
+	</g>
+</g>
+<rect x="515" y="14" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="132.609" height="37"/>
+<text transform="matrix(1 0 0 1 535.4878 38)" font-family="'Seravek-Light'" font-size="15px">Content Script</text>
+<rect x="515" y="74" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="132.609" height="37"/>
+<text transform="matrix(1 0 0 1 526.5181 98)" font-family="'Seravek-Light'" font-size="15px">Privly Application</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="336.953" y1="60.5" x2="509.023" y2="36.339"/>
+		<g>
+			<path fill="#231815" d="M515,35.5c-2.666,1.438-5.905,3.709-7.803,5.898l1.042-4.949l-2.365-4.469
+				C508.302,33.562,512.041,34.852,515,35.5z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="336.953" y1="67.5" x2="509.023" y2="91.661"/>
+		<g>
+			<path fill="#231815" d="M515,92.5c-2.959,0.649-6.698,1.939-9.126,3.521l2.365-4.47l-1.042-4.948
+				C509.095,88.792,512.334,91.063,515,92.5z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 350.7617 32.5)" font-family="'Seravek-Light'" font-size="15px">posting/contentScript/*</text>
+<text transform="matrix(1 0 0 1 375.1333 101.5)" font-family="'Seravek-Light'" font-size="15px">posting/app/*</text>
+</svg>

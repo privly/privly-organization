@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 660.569 546" enable-background="new 0 0 660.569 546" xml:space="preserve">
+<rect x="84.724" y="488.297" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="150.125" height="37.36"/>
+<text transform="matrix(1 0 0 1 103.1558 511.9896)" font-family="'Seravek-Light'" font-size="15px">Receive user input</text>
+<rect x="19.532" y="23.949" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="277.661" height="37.36"/>
+<text transform="matrix(1 0 0 1 33.168 47.6413)" font-family="'Seravek-Light'" font-size="15px">Get the content of the editable element</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="159.786" y1="61.309" x2="159.786" y2="111.851"/>
+		<g>
+			<path fill="#231815" d="M159.786,117.887c-1.054-2.84-2.852-6.363-4.756-8.547l4.756,1.72l4.755-1.72
+				C162.637,111.523,160.839,115.047,159.786,117.887z"/>
+		</g>
+	</g>
+</g>
+<polygon fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" points="161.041,185.928 24.888,151.907 161.041,117.887 
+	297.194,151.907 "/>
+<text transform="matrix(1 0 0 1 71.0722 156.7032)" font-family="'Seravek-Light'" font-size="15px">Contains editable Privly link?</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="159.786" y1="185.928" x2="159.786" y2="236.471"/>
+		<g>
+			<path fill="#231815" d="M159.786,242.506c-1.054-2.84-2.852-6.363-4.756-8.547l4.756,1.72l4.755-1.72
+				C162.637,236.142,160.839,239.666,159.786,242.506z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 164.2368 216.2166)" font-family="'Seravek-Light'" font-size="15px">Yes: load existing</text>
+<rect x="19.532" y="242.506" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="277.661" height="37.36"/>
+<text transform="matrix(1 0 0 1 39.2134 266.198)" font-family="'Seravek-Light'" font-size="15px">initial content ← content of Privly link</text>
+<g>
+	<g>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="297.194,151.907 491.309,151.907 491.309,196.471 		"/>
+		<g>
+			<path fill="#231815" d="M491.309,202.506c-1.054-2.84-2.852-6.363-4.756-8.547l4.756,1.72l4.755-1.72
+				C494.16,196.142,492.362,199.666,491.309,202.506z"/>
+		</g>
+	</g>
+</g>
+<rect x="336.406" y="202.506" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="309.806" height="37.36"/>
+<text transform="matrix(1 0 0 1 348.775 226.198)" font-family="'Seravek-Light'" font-size="15px">initial content ← content of editable element</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="491.311" y1="239.865" x2="491.311" y2="273.965"/>
+		<g>
+			<path fill="#231815" d="M491.311,280c-1.054-2.84-2.852-6.363-4.756-8.547l4.756,1.72l4.755-1.72
+				C494.161,273.637,492.363,277.16,491.311,280z"/>
+		</g>
+	</g>
+</g>
+<rect x="421.375" y="280.938" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="139.871" height="37.36"/>
+<text transform="matrix(1 0 0 1 442.6827 304.63)" font-family="'Seravek-Light'" font-size="15px">Create new link</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="159.786" y1="279.865" x2="159.786" y2="482.262"/>
+		<g>
+			<path fill="#231815" d="M159.786,488.297c-1.054-2.84-2.852-6.363-4.756-8.547l4.756,1.72l4.755-1.72
+				C162.637,481.934,160.839,485.458,159.786,488.297z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="491.312,392.297 491.309,432 165.821,432 		"/>
+		<g>
+			<path fill="#231815" d="M159.786,432c2.84-1.054,6.363-2.852,8.547-4.756l-1.72,4.756l1.72,4.755
+				C166.15,434.851,162.626,433.053,159.786,432z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 297.1936 145.7504)" font-family="'Seravek-Light'" font-size="15px">No: create new</text>
+<rect x="365.551" y="354.938" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="251.519" height="37.36"/>
+<text transform="matrix(1 0 0 1 381.6036 378.63)" font-family="'Seravek-Light'" font-size="15px">content of editable element ← link</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="491.309" y1="318.297" x2="491.309" y2="348.903"/>
+		<g>
+			<path fill="#231815" d="M491.309,354.938c-1.054-2.84-2.852-6.363-4.756-8.547l4.756,1.72l4.755-1.72
+				C494.16,348.574,492.362,352.098,491.309,354.938z"/>
+		</g>
+	</g>
+</g>
+</svg>

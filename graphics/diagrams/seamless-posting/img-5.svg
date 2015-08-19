@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 586 489" enable-background="new 0 0 586 489" xml:space="preserve">
+<rect x="51.344" y="61.678" fill="#EFEFEF" width="197.548" height="51.683"/>
+<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="121.43" y1="71.441" x2="121.43" y2="88.842"/>
+<text transform="matrix(1 0 0 1 59.0761 85.1971)" font-family="'Seravek-Light'" font-size="16.7536px">textarea</text>
+<rect x="38.456" y="48.791" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="5" width="226.817" height="82.479"/>
+<text transform="matrix(1 0 0 1 124.8007 146.7343)" fill="#231815" font-family="'Seravek-Light'" font-size="16.7536px">TargetResourceItem</text>
+<path fill="#444444" d="M333.803,64.261h3.326v2.217l4.434-3.326l-4.434-3.326v2.217h-4.434c-0.665,0-1.109,0.443-1.109,1.109v6.651
+	h-2.217v7.76h13.302v-7.76h-8.868V64.261z"/>
+<text transform="matrix(1 0 0 1 364.5282 71.4409)" fill="#231815" font-family="'Seravek-Light'" font-size="16.7536px">ButtonResourceItem</text>
+<rect x="18.842" y="28.196" fill="none" stroke="#13AE67" stroke-width="1.5" stroke-miterlimit="10" width="545.663" height="195.084"/>
+<text transform="matrix(1 0 0 1 498.8103 237.1709)" fill="#13AE67" font-family="'Seravek-Light'" font-size="16.7536px">Resource</text>
+<rect x="318.338" y="48.791" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="5" width="33.507" height="40.051"/>
+<polygon points="398.648,114.583 398.648,146.965 416.557,146.965 423.208,153.616 429.859,146.965 520.35,146.965 520.35,114.583 
+	"/>
+<text transform="matrix(1 0 0 1 407.1299 135.3886)" fill="#FFFFFF" font-family="'Seravek-Light'" font-size="16.7536px">Click to enable</text>
+<rect x="388.338" y="104.437" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="5" width="140.472" height="57.993"/>
+<text transform="matrix(1 0 0 1 388.3383 186.9374)" fill="#231815" font-family="'Seravek-Light'" font-size="16.7536px">TooltipResourceItem</text>
+<text transform="matrix(1 0 0 1 100.8105 193.9374)" fill="#231815" font-family="'Seravek-Light'" font-size="16.7536px">ControlResourceItem</text>
+<g>
+	<polygon fill="#DCDDDD" points="255.274,171.046 255.274,176.544 261.016,170.802 255.518,170.802 	"/>
+	<polygon fill="#DCDDDD" points="275.158,170.802 269.66,170.802 255.274,185.188 255.274,190.686 	"/>
+	<polygon fill="#DCDDDD" points="289.3,170.802 283.802,170.802 255.274,199.331 255.274,204.828 	"/>
+	<polygon fill="#DCDDDD" points="289.544,184.7 289.544,179.202 263.674,205.072 269.172,205.072 	"/>
+	<polygon fill="#DCDDDD" points="289.544,198.842 289.544,193.345 277.816,205.072 283.314,205.072 	"/>
+</g>
+<rect x="255.274" y="170.802" fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="5" width="34.27" height="34.27"/>
+<text transform="matrix(1 0 0 1 286.6735 116.2037)" fill="#00A0E9" font-family="'Seravek-Light'" font-size="15px">buttonClicked</text>
+<g>
+	<path fill="#2EA7E0" d="M281.923,133.484c8.583-3.386,16.827-7.812,24.533-12.746h-1.866c-7.264,4.557-14.988,8.639-23.011,11.806
+		l0.003-4.531c-1.408,2.533-4.112,5.42-6.425,7.375c3.029,0.026,6.953,0.521,9.654,1.571L281.923,133.484z"/>
+	<path fill="#2EA7E0" d="M346.472,98.11h1.418c10.392-10.313,16.815-17.418,17.011-17.635l-0.744-0.668
+		C363.957,80.029,357.261,87.437,346.472,98.11z"/>
+	<path fill="#2EA7E0" d="M358.14,98.11c7.04-12.182,15.884-20.038,16.034-20.17l-0.658-0.753
+		c-0.154,0.135-9.339,8.295-16.518,20.923H358.14z"/>
+	<path fill="#2EA7E0" d="M335.585,98.11c15.315-13.992,24.894-26.128,25.076-26.362l-0.787-0.615
+		c-0.185,0.236-10.057,12.743-25.769,26.977H335.585z"/>
+	<path fill="#2EA7E0" d="M376.217,167.602l-1.331,4.32c-16.359-13.109-24.88-27.763-25.295-43.575
+		c-0.068-2.589,0.088-5.129,0.423-7.608h-1.006c-0.33,2.486-0.485,5.032-0.418,7.629c0.421,16.131,9.077,31.047,25.695,44.355
+		l-3.795,2.474c2.89-0.206,6.786,0.479,9.688,1.347C378.546,173.994,376.815,170.438,376.217,167.602z"/>
+	<path fill="#2EA7E0" d="M250.192,171.824l-0.403-0.915c0.297-0.131,0.595-0.27,0.893-0.404l-0.223-4.519
+		c-1.279,2.6-3.835,5.619-6.048,7.687c3.026-0.125,6.971,0.173,9.72,1.086l-3.063-3.331
+		C250.776,171.559,250.484,171.695,250.192,171.824z"/>
+	<path fill="#2EA7E0" d="M251.068,171.428c25.035-11.23,51.589-31.889,72.752-50.69h-1.501
+		c-20.953,18.539-47.039,38.728-71.637,49.767l0.026,0.532L251.068,171.428z"/>
+</g>
+<rect x="147" y="321" fill="#EFEFEF" width="183.18" height="43"/>
+<text transform="matrix(1 0 0 1 181 348)" font-family="'Seravek-Light'" font-size="15px">Background Script</text>
+<path fill="#E61673" d="M223.885,313.315c-0.164-0.039-16.562-4.023-32.273-18.603c-26.25-24.361-30.514-59.06-29.469-83.878
+	l0.999,0.042c-1.036,24.593,3.174,58.967,29.112,83.068c15.519,14.419,31.699,18.359,31.86,18.397L223.885,313.315z
+	 M157.804,213.115l4.838-1.469l4.659,1.967c-1.787-2.281-3.398-5.894-4.302-8.785C161.8,207.609,159.82,211.034,157.804,213.115z
+	 M308.216,296.368c32.282-14.562,76.874-41.29,105.986-85.916l-0.838-0.546c-28.975,44.415-73.383,71.031-105.534,85.539
+	c-34.859,15.729-63.227,21.011-63.51,21.063l0.18,0.983C244.783,317.44,273.25,312.142,308.216,296.368z M408.374,209.684
+	l4.929,1.128l3.067,4.021c-0.418-2.867-0.022-6.803,0.63-9.761C414.577,206.89,411.158,208.879,408.374,209.684z M197.222,312.552
+	C195.782,311.84,53.293,240.8,57.366,188.92c1.268-16.154,16.742-28.971,45.991-38.092l-0.298-0.955
+	c-29.678,9.255-45.387,22.366-46.69,38.969c-1.734,22.096,21.389,49.791,68.727,82.317c35.174,24.168,71.322,42.111,71.683,42.289
+	L197.222,312.552z M99.449,146.532l3.009,4.064l-0.287,5.049c1.548-2.45,4.409-5.181,6.828-7.003
+	C105.978,148.445,102.087,147.731,99.449,146.532z"/>
+<text transform="matrix(1 0 0 1 212 298)" fill="#E61673" font-family="'Seravek-Light'" font-size="15px">appStarted</text>
+<g>
+	<g>
+		<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="234" y1="423" x2="234" y2="374.035"/>
+		<g>
+			<path fill="#231815" d="M234,368c1.054,2.84,2.852,6.363,4.756,8.547l-4.756-1.72l-4.755,1.72
+				C231.149,374.363,232.947,370.84,234,368z"/>
+		</g>
+	</g>
+</g>
+<rect x="145.66" y="425" fill="#EFEFEF" width="183.18" height="43"/>
+<text transform="matrix(1 0 0 1 179.6603 452)" font-family="'Seravek-Light'" font-size="15px">Privly Application</text>
+<text transform="matrix(1 0 0 1 238.5902 401)" font-family="'Seravek-Light'" font-size="15px">appStarted</text>
+<g>
+	<g>
+		<line fill="none" stroke="#E61673" stroke-miterlimit="10" x1="437" y1="306" x2="542.965" y2="306"/>
+		<g>
+			<path fill="#E61673" d="M549,306c-2.84,1.054-6.363,2.852-8.547,4.756l1.72-4.756l-1.72-4.755
+				C542.637,303.149,546.16,304.947,549,306z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 437 324)" fill="#E61673" font-family="'Seravek-Light'" font-size="15px">external message</text>
+<g>
+	<g>
+		<line fill="none" stroke="#2EA7E0" stroke-miterlimit="10" x1="437" y1="346" x2="542.965" y2="346"/>
+		<g>
+			<path fill="#2EA7E0" d="M549,346c-2.84,1.054-6.363,2.852-8.547,4.756l1.72-4.756l-1.72-4.755
+				C542.637,343.149,546.16,344.947,549,346z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 437 364)" fill="#2EA7E0" font-family="'Seravek-Light'" font-size="15px">internal message</text>
+</svg>
