@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 530.43 356.651" enable-background="new 0 0 530.43 356.651" xml:space="preserve">
+<polygon fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" points="141,51 131,15 31,15 21,51 11,51 11,344 515,344 515,51 
+	"/>
+<text transform="matrix(1 0 0 1 40 38.0001)" font-family="'Seravek-Light'" font-size="15px">Browser Tab</text>
+<text transform="matrix(1 0 0 1 452 339)" font-family="'Seravek-Light'" font-size="15px">Context 1</text>
+<rect x="29" y="119" fill="none" stroke="#D70051" stroke-miterlimit="10" stroke-dasharray="5" width="206" height="100.5"/>
+<text transform="matrix(1 0 0 1 29 115.4439)" fill="#E61673" font-family="'Seravek-Light'" font-size="15px">iframe</text>
+<rect x="269" y="119" fill="none" stroke="#D70051" stroke-miterlimit="10" stroke-dasharray="5" width="206" height="100.5"/>
+<text transform="matrix(1 0 0 1 269 115.4439)" fill="#E61673" font-family="'Seravek-Light'" font-size="15px">iframe</text>
+<text transform="matrix(1 0 0 1 19 74.0001)" fill="#595757" font-family="'Seravek-Light'" font-size="13px">http://notexist.example.com</text>
+<text transform="matrix(1 0 0 1 170 213)" font-family="'Seravek-Light'" font-size="15px">Context 2</text>
+<text transform="matrix(1 0 0 1 410 213)" font-family="'Seravek-Light'" font-size="15px">Context 3</text>
+<rect x="39" y="253" fill="#EFEFEF" width="153.288" height="40.104"/>
+<line fill="none" stroke="#231815" stroke-miterlimit="10" x1="93.384" y1="260.575" x2="93.384" y2="274.077"/>
+<text transform="matrix(1 0 0 1 45 271.2493)" font-family="'Seravek-Light'" font-size="13px">textarea</text>
+<rect x="29" y="243" fill="none" stroke="#2EA7E0" stroke-miterlimit="10" stroke-dasharray="5" width="176" height="64"/>
+<text transform="matrix(1 0 0 1 96 319.0001)" fill="#2EA7E0" font-family="'Seravek-Light'" font-size="13px">TargetResourceItem</text>
+<path fill="#444444" d="M178.043,261.886h2.58v1.72l3.441-2.581l-3.441-2.58v1.72h-3.441c-0.516,0-0.86,0.344-0.86,0.86v5.161h-1.72
+	v6.021h10.322v-6.021h-6.881V261.886z"/>
+<g>
+	<g>
+		
+			<line fill="none" stroke="#F39800" stroke-miterlimit="10" stroke-dasharray="5,5" x1="195.221" y1="262.169" x2="223.738" y2="253"/>
+		<g>
+			<path fill="#F39800" d="M189.476,264.016c3.026,0.134,6.931,0.767,9.593,1.911l-3.093-4.001l0.182-5.053
+				C194.661,259.354,191.857,262.144,189.476,264.016z"/>
+		</g>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 223.7379 258.445)" fill="#F39800" font-family="'Seravek-Light'" font-size="13px">ButtonResourceItem</text>
+<rect x="23.78" y="237.019" fill="none" stroke="#13AE67" stroke-miterlimit="10" width="318.843" height="85.869"/>
+<text transform="matrix(1 0 0 1 279.981 314.442)" fill="#13AE67" font-family="'Seravek-Light'" font-size="13px">Resource 1</text>
+<rect x="348.223" y="237.019" fill="none" stroke="#13AE67" stroke-miterlimit="10" width="146.931" height="85.869"/>
+<text transform="matrix(1 0 0 1 429.5046 314.4422)" fill="#13AE67" font-family="'Seravek-Light'" font-size="13px">Resource 2</text>
+<rect x="352.663" y="242" fill="none" stroke="#2EA7E0" stroke-miterlimit="10" stroke-dasharray="5" width="44.332" height="41.941"/>
+<rect x="402.663" y="242" fill="none" stroke="#F39800" stroke-miterlimit="10" stroke-dasharray="5" width="44.332" height="41.941"/>
+<text transform="matrix(1 0 0 1 452.7209 265.3264)" font-family="'Seravek-Light'" font-size="13px">........</text>
+</svg>

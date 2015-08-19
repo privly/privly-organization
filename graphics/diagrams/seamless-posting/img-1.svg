@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 364 635.461" enable-background="new 0 0 364 635.461" xml:space="preserve">
+<rect x="107.427" y="22.618" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="139.871" height="37.36"/>
+<text transform="matrix(1 0 0 1 128.7349 46.3098)" font-family="'Seravek-Light'" font-size="15px">Create new link</text>
+<rect x="107.427" y="131.963" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="139.871" height="37.36"/>
+<text transform="matrix(1 0 0 1 141.1998 155.6555)" font-family="'Seravek-Light'" font-size="15px">Update link</text>
+<text transform="matrix(1 0 0 1 144.9214 96.427)" font-family="'Seravek-Light'" font-size="15px">User input</text>
+<g>
+	<g>
+		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="247.298,152.01 286.481,152.01 286.481,91.87 
+			225.086,91.87 		"/>
+		<g>
+			<path d="M219.051,91.87c2.84-1.054,6.363-2.852,8.547-4.756l-1.72,4.756l1.72,4.755C225.414,94.72,221.891,92.922,219.051,91.87z
+				"/>
+		</g>
+	</g>
+</g>
+<g>
+	<rect x="26.558" y="256.542" fill="#FFFFFF" width="139.871" height="37.36"/>
+	<g>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="166.429,291.402 166.429,293.902 163.929,293.902 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.9952,4.9952" x1="158.934" y1="293.902" x2="31.555" y2="293.902"/>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="29.058,293.902 26.558,293.902 26.558,291.402 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.6228,4.6228" x1="26.558" y1="286.779" x2="26.558" y2="261.354"/>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="26.558,259.042 26.558,256.542 29.058,256.542 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.9952,4.9952" x1="34.053" y1="256.542" x2="161.431" y2="256.542"/>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="163.929,256.542 166.429,256.542 166.429,259.042 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.6228,4.6228" x1="166.429" y1="263.665" x2="166.429" y2="289.091"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 79.7695 280.2356)" font-family="'Seravek-Light'" font-size="15px">Done</text>
+<g>
+	
+		<rect x="130.904" y="159.635" transform="matrix(0.8076 0.5898 -0.5898 0.8076 149.0977 -37.1862)" width="1.255" height="100.483"/>
+	<g>
+		<path d="M97.404,256.542c1.036-3.656,1.825-8.555,1.514-12.177l3.542,5.264l6.088,1.779
+			C105.003,252.21,100.573,254.447,97.404,256.542z"/>
+	</g>
+</g>
+<rect x="190.576" y="256.542" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="139.871" height="37.36"/>
+<text transform="matrix(1 0 0 1 222.9008 280.2356)" font-family="'Seravek-Light'" font-size="15px">Destroy link</text>
+<text transform="matrix(1 0 0 1 192.4194 213.8445)" font-family="'Seravek-Light'" font-size="15px">User cancel</text>
+<text transform="matrix(1 0 0 1 89.062 333.5574)" fill="#727171" font-family="'Seravek-LightItalic'" font-size="15px">workflow of seamless-posting</text>
+<text transform="matrix(1 0 0 1 145.833 428.6469)" font-family="'Seravek-Light'" font-size="15px">User input</text>
+<text transform="matrix(1 0 0 1 91.1299 500.6321)" font-family="'Seravek-Light'" font-size="15px">User submit</text>
+<text transform="matrix(1 0 0 1 188.4849 500.6321)" font-family="'Seravek-Light'" font-size="15px">User cancel</text>
+<g>
+	<rect x="198.201" y="536.169" fill="#FFFFFF" width="139.871" height="37.36"/>
+	<g>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="338.072,571.029 338.072,573.529 335.572,573.529 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.9952,4.9952" x1="330.577" y1="573.529" x2="203.199" y2="573.529"/>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="200.701,573.529 198.201,573.529 198.201,571.029 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.6228,4.6228" x1="198.201" y1="566.406" x2="198.201" y2="540.98"/>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="198.201,538.669 198.201,536.169 200.701,536.169 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.9952,4.9952" x1="205.696" y1="536.169" x2="333.074" y2="536.169"/>
+		<polyline fill="none" stroke="#231815" stroke-miterlimit="10" points="335.572,536.169 338.072,536.169 338.072,538.669 		"/>
+		
+			<line fill="none" stroke="#231815" stroke-miterlimit="10" stroke-dasharray="4.6228,4.6228" x1="338.072" y1="543.292" x2="338.072" y2="568.717"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 251.4121 559.8616)" font-family="'Seravek-Light'" font-size="15px">Done</text>
+<rect x="22.578" y="536.169" fill="#FFFFFF" stroke="#231815" stroke-miterlimit="10" width="139.871" height="37.36"/>
+<text transform="matrix(1 0 0 1 43.8857 559.8617)" font-family="'Seravek-Light'" font-size="15px">Create new link</text>
+<text transform="matrix(1 0 0 1 92.9073 609.8627)" fill="#727171" font-family="'Seravek-LightItalic'" font-size="15px">workflow of general posting</text>
+<g>
+	<polygon points="220.264,199.033 198.267,168.953 197.254,169.693 218.71,199.033 	"/>
+	<path d="M260.03,244.367l-3.169,4.709l0.721,0.985l-1.013,0.74l-0.72-0.985l-5.449,1.593c3.546,0.801,7.975,3.038,11.145,5.133
+		C260.508,252.887,259.72,247.988,260.03,244.367z"/>
+	<polygon points="256.862,249.076 236.126,220.722 234.572,220.722 255.849,249.817 256.49,249.629 	"/>
+</g>
+<g>
+	<rect x="178.786" y="59.977" fill="#231815" width="1.254" height="19.14"/>
+	<polygon fill="#231815" points="180.041,123.172 180.041,100.806 178.786,100.806 178.786,123.172 179.414,123.399 	"/>
+	<path fill="#231815" d="M180.041,124.392h-1.254v-1.22l-5.339-1.931c2.389,2.74,4.644,7.16,5.966,10.722
+		c1.321-3.562,3.576-7.982,5.965-10.722l-5.338,1.931V124.392z"/>
+</g>
+<g>
+	<rect x="179.698" y="392.198" fill="#231815" width="1.254" height="21.363"/>
+	<path fill="#231815" d="M180.952,456.612h-1.254v-1.22l-5.339-1.931c2.389,2.74,4.644,7.16,5.966,10.722
+		c1.321-3.562,3.576-7.982,5.965-10.722l-5.338,1.931V456.612z"/>
+	<polygon fill="#231815" points="180.952,455.392 180.952,435.25 179.698,435.25 179.698,455.392 180.325,455.619 	"/>
+</g>
+<g>
+	<polygon fill="#231815" points="153.565,486.932 180.722,464.668 179.927,463.698 151.586,486.932 	"/>
+	<path fill="#231815" d="M98.766,531.855l-0.795-0.97l0.944-0.774l-1.891-5.353c-0.604,3.584-2.593,8.131-4.51,11.411
+		c3.592-1.237,8.44-2.295,12.074-2.185l-4.877-2.903L98.766,531.855z"/>
+	<polygon fill="#231815" points="99.71,531.081 127.107,508.621 125.129,508.621 98.915,530.111 99.137,530.739 	"/>
+</g>
+<g>
+	<polygon fill="#231815" points="207.534,485.677 180.722,463.698 179.927,464.668 205.555,485.677 	"/>
+	<path fill="#231815" d="M268.136,536.169c-1.918-3.28-3.906-7.826-4.511-11.411l-1.891,5.352l0.944,0.774l-0.795,0.97l-0.944-0.774
+		l-4.878,2.904C259.695,533.875,264.543,534.933,268.136,536.169z"/>
+	<polygon fill="#231815" points="261.735,530.111 233.991,507.367 232.013,507.367 260.94,531.081 261.513,530.739 	"/>
+</g>
+</svg>

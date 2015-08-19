@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 426 215" enable-background="new 0 0 426 215" xml:space="preserve">
+<rect x="13" y="13" fill="none" stroke="#E61673" stroke-miterlimit="10" width="394.668" height="185.305"/>
+<text transform="matrix(1 0 0 1 18.2114 33.916)" fill="#E61673" font-family="'Seravek-ExtraLightItalic'" font-size="18.1904px">content script of Privly-extension</text>
+<path fill="#444444" d="M67.9,65.793h2.58v1.72l3.441-2.58l-3.441-2.58v1.72H67.04c-0.516,0-0.86,0.344-0.86,0.86v5.161h-1.72v6.021
+	h10.322v-6.021H67.9V65.793z"/>
+<text transform="matrix(1 0 0 1 116.7499 75.6109)" font-family="'Seravek-ExtraLight'" font-size="15.765px">button</text>
+<rect x="32.403" y="103.733" fill="#EFEFEF" width="74.435" height="21.753"/>
+<line fill="none" stroke="#231815" stroke-width="0.5" stroke-miterlimit="10" x1="37.97" y1="109.674" x2="37.97" y2="119.624"/>
+<text transform="matrix(1 0 0 1 116.7499 119.2676)" font-family="'Seravek-ExtraLight'" font-size="15.765px">editable element</text>
+<polygon points="32.403,152.601 32.403,171.728 46.3,171.728 51.461,176.889 56.622,171.728 106.838,171.728 106.838,152.601 "/>
+<text transform="matrix(1 0 0 1 116.7499 167.7753)" font-family="'Seravek-ExtraLight'" font-size="15.765px">tooltip</text>
+<rect x="244.991" y="57.756" fill="none" stroke="#036EB8" stroke-miterlimit="10" stroke-dasharray="5" width="142.009" height="96.821"/>
+<rect x="254.566" y="68.715" fill="#D8E3C1" width="123.858" height="32.593"/>
+<line fill="none" stroke="#231815" stroke-width="0.5" stroke-miterlimit="10" x1="260.662" y1="76.873" x2="260.662" y2="86.823"/>
+<text transform="matrix(1 0 0 1 244.9908 171.4004)" font-family="'Seravek-ExtraLight'" font-size="15.765px">iframe of privly-app</text>
+<text transform="matrix(1 0 0 1 313.2656 146.2543)" fill="#036EB8" font-family="'Seravek-ExtraLightItalic'" font-size="18.1904px">Privly-app</text>
+<text transform="matrix(1 0 0 1 254.5654 114.6489)" font-family="'Seravek-ExtraLight'" font-size="15.765px">textarea</text>
+</svg>
